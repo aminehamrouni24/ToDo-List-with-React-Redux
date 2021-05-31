@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.addTaskk {
+  background-color: rgba(236, 28, 255, 0.61);
+  width : 100%;
+  color: rgb(5, 5, 5);
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.fa-trash {
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fa-check-circle:hover {
+  color: green;
+}
+.fa-edit {
+  color: blue;
+}
+.fa-trash,
+.fa-edit,
+.fa-check-circle {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+  width: 50%;
+  
+}
+.list{
+  background-color: rgba(13, 15, 134, 0.719);
+}
